@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T00:18:42.136Z",
+  "updated_at": "2026-11-05T20:00:42.694Z",
   "debian": {
     "12": {
       "codename": "bookworm",
@@ -39,31 +39,6 @@
     }
   },
   "redhat": {
-    "6": {
-      "advisories": [],
-      "states": [
-        {
-          "cve": "CVE-2026-109618",
-          "package": "php",
-          "state": "Out of support scope"
-        },
-        {
-          "cve": "CVE-2026-109619",
-          "package": "php",
-          "state": "Out of support scope"
-        }
-      ]
-    },
-    "7": {
-      "advisories": [],
-      "states": [
-        {
-          "cve": "CVE-2026-109618",
-          "package": "php",
-          "state": "Not affected"
-        }
-      ]
-    },
     "8": {
       "advisories": [
         {
