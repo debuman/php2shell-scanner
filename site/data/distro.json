@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T20:00:42.694Z",
+  "updated_at": "2026-11-11T06:34:16.809Z",
   "debian": {
     "12": {
       "codename": "bookworm",
@@ -82,6 +82,11 @@
           "package": "php-0:8.0.30-8.el9_8.1"
         },
         {
+          "advisory": "RHSA-2026:97880",
+          "cve": "CVE-2026-109618",
+          "package": "php:8.4-9090020261020151902.9"
+        },
+        {
           "advisory": "RHSA-2026:87072",
           "cve": "CVE-2026-109619",
           "package": "php:8.2-9080020261020145734.9"
@@ -95,20 +100,14 @@
           "advisory": "RHSA-2026:87151",
           "cve": "CVE-2026-109619",
           "package": "php-0:8.0.30-8.el9_8.1"
-        }
-      ],
-      "states": [
-        {
-          "cve": "CVE-2026-109618",
-          "package": "php:8.4/php",
-          "state": "Affected"
         },
         {
+          "advisory": "RHSA-2026:97880",
           "cve": "CVE-2026-109619",
-          "package": "php:8.4/php",
-          "state": "Affected"
+          "package": "php:8.4-9090020261020151902.9"
         }
-      ]
+      ],
+      "states": []
     },
     "10": {
       "advisories": [
