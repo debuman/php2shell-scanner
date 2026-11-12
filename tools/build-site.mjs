@@ -15,7 +15,7 @@ const DOWNLOADS = [
 ];
 
 const server = process.env.GITHUB_SERVER_URL || 'https://github.com';
-const repository = process.env.GITHUB_REPOSITORY || 'sqzer-x/php2shell-scanner';
+const repository = process.env.GITHUB_REPOSITORY || 'debuman/php2shell-scanner';
 
 await rm(OUT, { recursive: true, force: true });
 await cp(new URL('site/', ROOT), OUT, { recursive: true });

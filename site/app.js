@@ -14,7 +14,7 @@ const state = {
   distro: {},
   distroLoaded: false,
   status: null,
-  repo: 'https://github.com/sqzer-x/php2shell-scanner',
+  repo: 'https://github.com/debuman/php2shell-scanner',
   last: null,
 };
 const FAMILY_NAMES = { debian: 'Debian', ubuntu: 'Ubuntu' };
